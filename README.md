@@ -1,2 +1,12 @@
-# GenomicLocalizationOfMendelianDeseases
-This project aims to answer the question... How many mendelian deseases mutations are located intergenic and genetic regions.
+# Genomic Localization Of Mendelian Deseases
+
+# Introduction
+
+## Objectives
+
+# Results and Discussion
+
+# Conclusion
+# Methods
+
+# References
