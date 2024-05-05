@@ -27,7 +27,7 @@ genome_regions = {}
 entities = ['gene', 'exon', 'CDS']
 
 # Read regeions and seve into dict
-with open('results/regions_chr21.tsv', 'r') as file:
+with open('results/regions.tsv', 'r') as file:
     for line in file:
         chr, entity, start, stop = line.strip().split('\t')
 
@@ -63,7 +63,7 @@ for chr in genome_regions.keys():
 
 # extract positions from clinvar by chromosome
 clinvar_positions = {}
-with open('results/clinvar_clean_chr21.tsv', 'r') as file:
+with open('results/clinvar_clean.tsv', 'r') as file:
     for line in file:
         chromosome, position = line.strip().split('\t')
         chromosome = f'chr{chromosome}'
