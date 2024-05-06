@@ -28,7 +28,8 @@ The second most common location for mutations related to Mendelian diseases are 
 ![Figure 1.](Figures/box_plot.png)
 > Figure 1. Box plot for mutations related to Mendelian diseases per genomic region
 
-![Figure 2. Pie plots for the abundange of mutations related to Mendelian diseases per genomic region per chromosome](Figures/pie_plots.png)
+![Figure 2.](Figures/pie_plots.png)
+> Figure 2. Pie plots for the abundange of mutations related to Mendelian diseases per genomic region per chromosome
 
 
 # Conclusion
