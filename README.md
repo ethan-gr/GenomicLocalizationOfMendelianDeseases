@@ -25,6 +25,10 @@ Most mutations that determine Mendelian diseases are located in protein coding s
 
 The second most common location for mutations related to Mendelian diseases are intergenic regions (Fig. 1). With an average of around 15,000 mutations per chromosome. Chromosome 14 has the most abundance of intergenic mutations, with about a third of the mutations occurring in these regions (Fig. 2). Chromosome 21 appears to have the smallest fraction of intergenic mutations. Finally, Chromosome Y has less than ¼ of mutations in intergenic regions, but it only has 9 mutations (results/counts.tsv).
 
+![Figure 1. Box plot for mutations related to Mendelian diseases per genomic region](Figures/box_plot.png)
+
+![Figure 2. Pie plots for the abundange of mutations related to Mendelian diseases per genomic region per chromosome](Figures/pie_plots.png)
+
 
 # Conclusion
 
