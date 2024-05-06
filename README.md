@@ -21,6 +21,9 @@ Understanding the genomic location of mutations associated with Mendelian diseas
 
 
 # Results and Discussion
+Most mutations that determine Mendelian diseases are located in protein coding sequences (CDS). With around 30,000 mutations on average per chromosome (Fig. 1), CDS mutations are the most common mutation. Forming approximately half of the mutations associated with Mendelian diseases found in each chromosome, except for chromosome Y, where the mutations located in this chromosome are almost entirely located in CDS regions (Fig. 2). This is surprising due to its repetitive sequence nature [5]. But still, its small size has to be taken into consideration. Although most of the mutations are found in CDS, there are only 33 CDS mutations (results/counts.tsv), which is not comparable to the ~30,000 mutations on average per gene. 
+
+The second most common location for mutations related to Mendelian diseases are intergenic regions (Fig. 1). With an average of around 15,000 mutations per chromosome. Chromosome 14 has the most abundance of intergenic mutations, with about a third of the mutations occurring in these regions (Fig. 2). Chromosome 21 appears to have the smallest fraction of intergenic mutations. Finally, Chromosome Y has less than ¼ of mutations in intergenic regions, but it only has 9 mutations (results/counts.tsv).
 
 
 # Conclusion
@@ -37,3 +40,6 @@ In this study, mutation positions associated with various diseases and condition
 [3] Jove. DNA and Chromosome Structure: Organization of Genes. https://app.jove.com/science-education/v/11528/organization-of-genes-introns-exons-regulatory-elements
 
 [4] Li, C., Zhao, H., Liang, B., Wang, T., & Li, G. (2007). An alternative protocol for isolating the flanking sequences of a mutation. Euphytica, 154, 139-144. https://doi.org/10.1007/s10681-006-9279-0.
+
+[5] Rhie, A., Nurk, S., Cechova, M. et al. The complete sequence of a human Y chromosome. Nature 621, 344–354 (2023). https://doi.org/10.1038/s41586-023-06457-y
+
