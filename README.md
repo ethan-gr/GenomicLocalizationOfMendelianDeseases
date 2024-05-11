@@ -9,7 +9,9 @@ Exons are the coding regions of DNA that contain information for protein synthes
 
 On the other hand, mutations in introns can affect mRNA splicing, the process by which introns are removed and exons are joined together to produce functional mature mRNA. Mutations that alter splicing can lead to the production of defective mRNA or the inclusion of aberrant exons, resulting in dysfunctional proteins that contribute to disease [3].
 
-Additionally, mutations in intergenic regions, which are found between coding genes, can also play a role in the pathogenesis of Mendelian diseases by affecting gene expression regulation. These regions may contain regulatory elements such as promoters, enhancers, or transcription factor binding sites that are crucial for controlling gene activity [3].
+Mutations in intergenic regions, which are found between coding genes, can also play a role in the pathogenesis of Mendelian diseases by affecting gene expression regulation. These regions may contain regulatory elements such as promoters, enhancers, or transcription factor binding sites that are crucial for controlling gene activity [3].
+
+Additionally, it is important to clarify the distinction between coding sequences (CDS) and genes. Genes represent functional units of heredity that encode specific instructions for synthesizing proteins or functional RNA molecules. Each gene encompasses not only coding regions, where protein-coding sequences are found, but also regulatory elements such as promoters, enhancers, and untranslated regions (UTRs), which govern gene expression and processing. In contrast, coding sequences (CDS) exclusively denote the segments within genes that directly encode the amino acid sequence of a protein. This means, all CDS are conformed by exons which in turn come from genes, but not all genes code for CDS [6]. 
 
 The precise identification of the genomic location of mutations associated with Mendelian diseases has become more feasible thanks to advances in next-generation sequencing (NGS) technologies, bioinformatic analysis techniques and the available databases with information about mutations associated with different diseases. These tools enable the analysis of the human genome and facilitate the identification of mutations in patients with hereditary diseases.
 
@@ -48,4 +50,6 @@ In this study, mutation positions associated with various diseases and condition
 [4] Li, C., Zhao, H., Liang, B., Wang, T., & Li, G. (2007). An alternative protocol for isolating the flanking sequences of a mutation. Euphytica, 154, 139-144. https://doi.org/10.1007/s10681-006-9279-0.
 
 [5] Rhie, A., Nurk, S., Cechova, M. et al. The complete sequence of a human Y chromosome. Nature 621, 344–354 (2023). https://doi.org/10.1038/s41586-023-06457-y
+
+[6] Uniprot. What are UniProtKB's criteria for defining a CDS as a protein?. https://www.uniprot.org/help/cds_protein_definition 
 
