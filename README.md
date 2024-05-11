@@ -27,6 +27,8 @@ Most mutations that determine Mendelian diseases are located in protein coding s
 
 The second most common location for mutations related to Mendelian diseases are intergenic regions (Fig. 1). With an average of around 15,000 mutations per chromosome. Chromosome 14 has the most abundance of intergenic mutations, with about a third of the mutations occurring in these regions (Fig. 2). Chromosome 21 appears to have the smallest fraction of intergenic mutations. Finally, Chromosome Y has less than ¼ of mutations in intergenic regions, but it only has 9 mutations (results/counts.tsv).
 
+Lastly, the least common region to find the mutations we are intrested in are genes and exons that code for functional RNAs. Genic regions have a mean of arround 5,000 mutations per chromosome, while exons have a mean of around 2,500 mutations per gene (Fig. 1). Chromosome Y has cero mutations in these regions, while the rest of the chromosomes have roughly the same fraction of mutations in these regions (Fig. 2). 
+
 ![Figure 1.](Figures/box_plot.png)
 > Figure 1. Box plot for mutations related to Mendelian diseases per genomic region. Note that CDS imply they are exons, which means they are genes. The genes and exons are separete because they are sequences that do not code for CDS.
 
@@ -35,7 +37,11 @@ The second most common location for mutations related to Mendelian diseases are 
 
 
 # Conclusion
+Most mutations related to Mendelian diseases are located in coding sequences (CDS). This implies that the etiology resides in faulty proteins that impair the cell's or tissue's normal function, as seen in cystic fibrosis disease, where the cystic fibrosis transmembrane conductance regulator (CFTR) channel is impaired and does not function properly, thereby altering the consistency of mucus, which in turn damages the lungs and other organs [7]. Therefore, most Mendelian diseases are due to mutated proteins that are unable to fulfill a function directly linked to the symptoms of the disease.
 
+The second most common genomic region to find mutations related to Mendelian diseases is intergenic regions. This means that gene regulation is impaired, rather than the function of the protein itself. Regulation is crucial for gene expression. While the coding sequence of a given protein could be perfect, if it cannot be expressed, it will not be able to carry out its function.
+
+Lastly, mutations in genes that do not code for coding sequences (CDS) can also be linked to Mendelian diseases. Functional RNAs are also responsible for regulation, so mutations in them cause similar effects to mutations in intergenic regions. 
 
 # Methods
 In this study, mutation positions associated with various diseases and conditions were obtained from the ClinVar database. Specifically, mutations linked to Mendelian diseases were identified based on their correspondence to entries in the OMIM database. Additionally, genomic coordinates of coding regions were retrieved from the GeneCode database. Data preprocessing, including file cleaning, was conducted using bash scripting. Subsequently, the positions of Mendelian disease mutations were mapped to the corresponding genomic regions using Python 3.0.
@@ -52,4 +58,6 @@ In this study, mutation positions associated with various diseases and condition
 [5] Rhie, A., Nurk, S., Cechova, M. et al. The complete sequence of a human Y chromosome. Nature 621, 344–354 (2023). https://doi.org/10.1038/s41586-023-06457-y
 
 [6] Uniprot. What are UniProtKB's criteria for defining a CDS as a protein?. https://www.uniprot.org/help/cds_protein_definition 
+
+[7] NIH. (2023). What causes cystic fibrosis?. https://www.nhlbi.nih.gov/health/cystic-fibrosis/causes 
 
