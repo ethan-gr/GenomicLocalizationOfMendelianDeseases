@@ -46,6 +46,8 @@ Lastly, mutations in genes that do not code for coding sequences (CDS) can also 
 # Methods
 In this study, mutation positions associated with various diseases and conditions were obtained from the ClinVar database. Specifically, mutations linked to Mendelian diseases were identified based on their correspondence to entries in the OMIM database. Additionally, genomic coordinates of coding regions were retrieved from the GeneCode database. Data preprocessing, including file cleaning, was conducted using bash scripting. Subsequently, the positions of Mendelian disease mutations were mapped to the corresponding genomic regions using Python 3.0.
 
+For research purposes we separated mutation locations in gene, exon, CDS, and intergenic. It was done this way in order to be more specific, given that all CDS are exons that come from genes, but not all genes are protein coding sequences nor are mede up of just exons. So "gene" encompasses promoter regions and introns, "exon" refers to non-CDS exons.
+
 # References
 [1] Rahit, K. T. H., & Tarailo-Graovac, M. (2020). Genetic modifiers and rare mendelian disease. Genes, 11(3), 239.
 
