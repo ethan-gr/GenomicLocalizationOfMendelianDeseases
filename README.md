@@ -30,7 +30,7 @@ The second most common location for mutations related to Mendelian diseases are 
 Lastly, the least common region to find the mutations we are intrested in are genes and exons that code for functional RNAs. Genic regions have a mean of arround 5,000 mutations per chromosome, while exons have a mean of around 2,500 mutations per gene (Fig. 1). Chromosome Y has cero mutations in these regions, while the rest of the chromosomes have roughly the same fraction of mutations in these regions (Fig. 2). 
 
 ![Figure 1.](Figures/box_plot.png)
-> Figure 1. Box plot for mutations related to Mendelian diseases per genomic region. Note that CDS imply they are exons, which means they are genes. The genes and exons are separete because they are sequences that do not code for CDS.
+> Figure 1. Box plot for mutations related to Mendelian diseases per genomic region. Note that CDS imply they are exons, which means they are genes. The genes and exons are separate as described in methods.
 
 ![Figure 2.](Figures/pie_plots.png)
 > Figure 2. Pie plots for the abundange of mutations related to Mendelian diseases per genomic region per chromosome. As for Fig. 1, CDS, genes and exons apear separately because not all genes and exons code for CDS.
