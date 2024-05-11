@@ -25,7 +25,7 @@ Understanding the genomic location of mutations associated with Mendelian diseas
 # Results and Discussion
 Most mutations that determine Mendelian diseases are located in protein coding sequences (CDS). With around 30,000 mutations on average per chromosome (Fig. 1), CDS mutations are the most common mutation. Forming approximately half of the mutations associated with Mendelian diseases found in each chromosome, except for chromosome Y, where the mutations located in this chromosome are almost entirely located in CDS regions (Fig. 2). This is surprising due to its repetitive sequence nature [5]. But still, its small size has to be taken into consideration. Although most of the mutations are found in CDS, there are only 33 CDS mutations (results/counts.tsv), which is not comparable to the ~25,000 mutations on average per gene. 
 
-The second most common location for mutations related to Mendelian diseases are intergenic regions (Fig. 1). With an average of around 15,000 mutations per chromosome. Chromosome 14 has the most abundance of intergenic mutations, with about a third of the mutations occurring in these regions (Fig. 2). Chromosome 21 appears to have the smallest fraction of intergenic mutations, this could be explained because chromosome 21 is the smallest in the genome [8]. Finally, Chromosome Y has less than ¼ of mutations in intergenic regions, but it only has 9 mutations (results/counts.tsv).
+The second most common location for mutations related to Mendelian diseases are intergenic regions (Fig. 1). With an average of around 15,000 mutations per chromosome. Chromosome 14 has the most abundance of intergenic mutations, with about a third of the mutations occurring in these regions (Fig. 2). Chromosome 21 appears to have the smallest fraction of intergenic mutations, this could be explained because chromosome 21 is the smallest in the genome [8]. Finally, Chromosome Y has less than ¼ of mutations in intergenic regions, but it only has 9 mutations (Table 1).
 
 Lastly, the least common region to find the mutations we are intrested in are genes and exons that code for functional RNAs. Genic regions have a mean of arround 5,000 mutations per chromosome, while exons have a mean of around 2,500 mutations per gene (Fig. 1). Chromosome Y has cero mutations in these regions, while the rest of the chromosomes have roughly the same fraction of mutations in these regions (Fig. 2). 
 
@@ -34,6 +34,34 @@ Lastly, the least common region to find the mutations we are intrested in are ge
 
 ![Figure 2.](Figures/pie_plots.png)
 > Figure 2. Pie plots for the abundange of mutations related to Mendelian diseases per genomic region per chromosome. As for Fig. 1, CDS, genes and exons apear separately because not all genes and exons code for CDS.
+
+| chr   | intergenic | genic | exon | CDS   |
+| ----- | ---------- | ----- | ---- | ----- |
+| chr1  | 27207      | 11403 | 6265 | 48466 |
+| chr2  | 42193      | 14927 | 6175 | 60164 |
+| chr3  | 16219      | 6099  | 3821 | 29740 |
+| chr4  | 8126       | 4811  | 2752 | 18958 |
+| chr5  | 13346      | 6585  | 4088 | 35991 |
+| chr6  | 12440      | 4739  | 2613 | 25943 |
+| chr7  | 13624      | 7313  | 2763 | 28636 |
+| chr8  | 17686      | 3988  | 2651 | 21477 |
+| chr9  | 16355      | 5826  | 4080 | 28686 |
+| chr10 | 14825      | 3939  | 2058 | 14273 |
+| chr11 | 15121      | 8903  | 4770 | 38512 |
+| chr12 | 15830      | 5007  | 3216 | 22559 |
+| chr13 | 6069       | 2665  | 1366 | 12515 |
+| chr14 | 17084      | 3000  | 2074 | 14724 |
+| chr15 | 14253      | 4631  | 2513 | 19917 |
+| chr16 | 27177      | 7811  | 4416 | 35963 |
+| chr17 | 24008      | 10340 | 5271 | 46113 |
+| chr18 | 6242       | 2009  | 1671 | 7829  |
+| chr19 | 11348      | 7907  | 3452 | 29524 |
+| chr20 | 4238       | 3332  | 1815 | 11723 |
+| chr21 | 1967       | 2084  | 883  | 8424  |
+| chr22 | 7472       | 2579  | 1347 | 10826 |
+| chrX  | 16015      | 6540  | 2127 | 29129 |
+| chrY  | 9          | 0     | 0    | 33    |
+> Table 1. Mutations per genomic region on each chromosome. 
 
 
 # Conclusion
